@@ -333,7 +333,8 @@ input:active {
   border-radius: 50%;
 }
 
-.modal-button-close:hover .modal-button-icon {
+.modal-button-close:hover .modal-button-icon,
+.modal-button-close:focus .modal-button-icon {
   fill: var(--accent-color);
 }
 
